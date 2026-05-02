@@ -1,16 +1,234 @@
-# React + Vite
+git cloneHere is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Skyline Weather Dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
 
-## React Compiler
+![Skyline Preview](assets/image_b1b19d.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
 
-## Expanding the ESLint configuration
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+
+---
+
+# Skyline Weather Dashboard
+
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+
+![Skyline Preview](assets/image_b1b19d.png)
+
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
+
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
+
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/adarshkaru/Weatherforecast.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables**:
+    Create a `.env` file in the root and add your API key:
+    Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+
+---
+
+# Skyline Weather Dashboard
+
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+
+![Skyline Preview](assets/image_b1b19d.png)
+
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
+
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
+
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/adarshkaru/Weatherforecast.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables**:
+    Create a `.env` file in the root and add your API key:
+    `VITE_WEATHER_API_KEY=your_openweather_key_here`
+4.  **Run development server**:
+    ```bash
+    npmHere is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+
+---
+
+# Skyline Weather Dashboard
+
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+
+![Skyline Preview](assets/image_b1b19d.png)
+
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
+
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
+
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables**:
+    Create a `.env` file in the root and add your API key:
+    `VITE_WEATHER_API_KEY=your_openweather_key_here`
+4.  **Run development server**:
+    ```bash
+    npm run dev
+    ```
+
+## Project Screenshots
+
+| Search View | Weather Results |
+| :--- | :--- |
+| ![Search Screen](assets/Screenshot%202026-05-02%20182829.jpg) | ![Results Screen](assets/Screenshot%202026-05-02%20182901.jpg) |
+
+Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+
+---
+
+# Skyline Weather Dashboard
+
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+
+![Skyline Preview](assets/image_b1b19d.png)
+
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
+
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
+
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables**:
+    Create a `.env` file in the root and add your API key:
+    `VITE_WEATHER_API_KEY=your_openweather_key_here`
+4.  **Run development server**:
+    ```bash
+    npm run dev
+    ```
+
+## Project Screenshots
+
+| Search View | Weather Results |
+| :--- | :--- |
+| ![Search Screen](assets/Screenshot%202026-05-02%20182829.jpg) | ![Results Screen](assets/Screenshot%202026-05-02%20182901.jpg) |
+
+
+
+---
+Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+
+---
+
+# Skyline Weather Dashboard
+
+Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+
+![Skyline Preview](assets/image_b1b19d.png)
+
+## Core Functionality
+*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
+*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
+*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
+
+## Technical Stack
+*   **React + Vite**: For a fast, component-based development environment[cite: 1].
+*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
+*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
+
+## Local Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables**:
+    Create a `.env` file in the root and add your API key:
+    `VITE_WEATHER_API_KEY=your_openweather_key_here`
+4.  **Run development server**:
+    ```bash
+    npm run dev
+    ```
+
+## Project Screenshots
+
+| Search View | Weather Results |
+| :--- | :--- |
+| ![Search Screen](assets/Screenshot%202026-05-02%20182829.jpg) | ![Results Screen](assets/Screenshot%202026-05-02%20182901.jpg) |
+
+
+
+---
+Developed by Karu Adarsh
