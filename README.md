@@ -1,67 +1,38 @@
-git cloneHere is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+Skyline Weather Dashboard
 
----
+Weather application built for minimal design and clear data visualization[cite: 1]. It uses a dark-themed Glassmorphism UI to show real-time weather data for cities globally[cite: 1].
 
-# Skyline Weather Dashboard
+Preview
+![Skyline Preview](assets/Screenshot%202026-05-02%20182901.png)
 
-Skyline is a weather application built with a focus on minimal design and clear data visualization[cite: 1]. It features a dark-themed "Glassmorphism" interface to provide real-time atmospheric data for cities worldwide[cite: 1].
+Features
+* Real-time weather data from OpenWeatherMap API[cite: 1].
+* Shows feels-like temperature, humidity, wind speed, pressure, and visibility[cite: 1].
+* Fully responsive Glassmorphism layout for all screen sizes[cite: 1].
 
-![Skyline Preview](assets/image_b1b19d.png)
+Tech Stack
+* React + Vite[cite: 1]
+* Tailwind CSS[cite: 1]
+* OpenWeather API[cite: 1]
 
-## Core Functionality
-*   **Real-time Data**: Fetches current weather conditions via the OpenWeatherMap API[cite: 1].
-*   **Atmospheric Details**: Displays perceived temperature, humidity, wind speed, barometric pressure, visibility, and solar timings[cite: 1].
-*   **Responsive UI**: A layout designed to scale across different screen sizes while maintaining the frosted-glass aesthetic[cite: 1].
-
-## Technical Stack
-*   **React + Vite**: For a fast, component-based development environment[cite: 1].
-*   **Tailwind CSS**: Used for the custom Glassmorphism styling and grid system[cite: 1].
-*   **OpenWeather API**: Powers the real-time weather data fetching[cite: 1].
-
-## Local Setup
-
-1.  **Clone the repository**:
-    ```bash
-    git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
-    ```
-2.  **Install dependencies**:
-    ```bash
-    Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
-
----
-
-
-    ```
-3.  **Environment Variables**:
-    Create a `.env` file in the root and add your API key:
-    Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
-
----
-
-
-
-
-
-4.  **Run development server**:
-    ```bash
-    npmHere is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
-
----
-
-    npm run dev
-    ```
-
-## Project Screenshots
-
-| Search View | Weather Results |
+Screenshots
+| Search View | Results View |
 | :--- | :--- |
-| ![Search Screen](assets/Screenshot%202026-05-02%20182829.jpg) | ![Results Screen](assets/Screenshot%202026-05-02%20182901.jpg) |
+| ![Search](assets/Screenshot%202026-05-02%20182829.png) | ![Results](assets/Screenshot%202026-05-02%20182901.png) |
 
-Here is a clean, developer-focused `README.md` for your **Skyline** project. It uses a direct tone and avoids the typical robotic structure often associated with AI-generated text.
+| Weekly Forecast | Metric Details |
+| :--- | :--- |
+| ![Forecast](assets/Screenshot%202026-05-02%20182842.png) | ![Metrics](assets/Screenshot%202026-05-02%20182909.png) |
+
+How to Run
+1. Clone the repo:
+   git clone [https://github.com/adarshkaru/Weatherforecast.git](https://github.com/adarshkaru/Weatherforecast.git)
+2. Install:
+   npm install
+3. API Key:
+   Create a .env file and add:
+   VITE_WEATHER_API_KEY=your_key_here
+4. Start:
+   npm run dev
 
 ---
-
-
-
-
-
